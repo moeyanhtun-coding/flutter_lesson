@@ -29,18 +29,19 @@ class MyApp extends StatelessWidget {
   Widget _bodyBuildUI() {
     return Container(
       width: double.infinity,
+      height: double.infinity,
       color: Colors.amber,
-      child: Column(
-        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        // mainAxisAlignment: MainAxisAlignment.spaceAround,
-        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Row(
+        // mainAxisAlignment: MainAxisAlignment.start,
         // mainAxisAlignment: MainAxisAlignment.end,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
         // crossAxisAlignment: CrossAxisAlignment.start,
+        // crossAxisAlignment: CrossAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        // crossAxisAlignment: CrossAxisAlignment.baseline,
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
             color: Colors.greenAccent,
@@ -50,21 +51,56 @@ class MyApp extends StatelessWidget {
             ),
           ),
           Container(
-            color: Colors.redAccent,
+            color: Colors.blueAccent,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("this is text 2"),
+              child: Text("this is text 1"),
             ),
           ),
           Container(
             color: Colors.cyanAccent,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("this is text 3"),
+              child: Text("this is text 1"),
             ),
           ),
         ],
       ),
+      // child: Column(
+      //   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //   // mainAxisAlignment: MainAxisAlignment.spaceAround,
+      //   // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   // mainAxisAlignment: MainAxisAlignment.end,
+
+      //   // crossAxisAlignment: CrossAxisAlignment.start,
+      //   // crossAxisAlignment: CrossAxisAlignment.end,
+      //   crossAxisAlignment: CrossAxisAlignment.stretch,
+      //   // crossAxisAlignment: CrossAxisAlignment.baseline,
+      //   children: [
+      //     Container(
+      //       color: Colors.greenAccent,
+      //       child: Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Text("this is text 1"),
+      //       ),
+      //     ),
+      //     Container(
+      //       color: Colors.redAccent,
+      //       child: Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Text("this is text 2"),
+      //       ),
+      //     ),
+      //     Container(
+      //       color: Colors.cyanAccent,
+      //       child: Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Text("this is text 3"),
+      //       ),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
