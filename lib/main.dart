@@ -27,35 +27,41 @@ class MyApp extends StatelessWidget {
   }
 
   Widget _bodyBuildUI() {
-    return Padding(
-      padding: EdgeInsets.all(8),
+    return Container(
+      width: double.infinity,
+      color: Colors.amber,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.center,
+        // mainAxisAlignment: MainAxisAlignment.end,
+
+        // crossAxisAlignment: CrossAxisAlignment.start,
+        // crossAxisAlignment: CrossAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        // crossAxisAlignment: CrossAxisAlignment.baseline,
         children: [
           Container(
-            width: double.infinity,
-            height: 200,
             color: Colors.greenAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 1"),
+            ),
           ),
           Container(
-            width: double.infinity,
-            height: 200,
             color: Colors.redAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 2"),
+            ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                width: 100,
-                height: 200,
-                color: Colors.greenAccent,
-              ),
-              Container(
-                width: 100,
-                height: 200,
-                color: Colors.green,
-              ),
-            ],
+          Container(
+            color: Colors.cyanAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 3"),
+            ),
           ),
         ],
       ),
