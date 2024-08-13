@@ -66,41 +66,41 @@ class MyApp extends StatelessWidget {
           ),
         ],
       ),
-      // child: Column(
-      //   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      //   // mainAxisAlignment: MainAxisAlignment.spaceAround,
-      //   // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      //   mainAxisAlignment: MainAxisAlignment.center,
-      //   // mainAxisAlignment: MainAxisAlignment.end,
+      child: Column(
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.center,
+        // mainAxisAlignment: MainAxisAlignment.end,
 
-      //   // crossAxisAlignment: CrossAxisAlignment.start,
-      //   // crossAxisAlignment: CrossAxisAlignment.end,
-      //   crossAxisAlignment: CrossAxisAlignment.stretch,
-      //   // crossAxisAlignment: CrossAxisAlignment.baseline,
-      //   children: [
-      //     Container(
-      //       color: Colors.greenAccent,
-      //       child: Padding(
-      //         padding: const EdgeInsets.all(8.0),
-      //         child: Text("this is text 1"),
-      //       ),
-      //     ),
-      //     Container(
-      //       color: Colors.redAccent,
-      //       child: Padding(
-      //         padding: const EdgeInsets.all(8.0),
-      //         child: Text("this is text 2"),
-      //       ),
-      //     ),
-      //     Container(
-      //       color: Colors.cyanAccent,
-      //       child: Padding(
-      //         padding: const EdgeInsets.all(8.0),
-      //         child: Text("this is text 3"),
-      //       ),
-      //     ),
-      //   ],
-      // ),
+        // crossAxisAlignment: CrossAxisAlignment.start,
+        // crossAxisAlignment: CrossAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        // crossAxisAlignment: CrossAxisAlignment.baseline,
+        children: [
+          Container(
+            color: Colors.greenAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 1"),
+            ),
+          ),
+          Container(
+            color: Colors.redAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 2"),
+            ),
+          ),
+          Container(
+            color: Colors.cyanAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("this is text 3"),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
