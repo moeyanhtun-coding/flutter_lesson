@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-=======
 import 'package:flutter_lesson/flutter_expended_widget.dart';
->>>>>>> 2bcfc28 ([Add] Expended Widget)
 
 void main() {
   runApp(const FlutterExpendedWidget());
@@ -34,50 +31,6 @@ class MyApp extends StatelessWidget {
       width: double.infinity,
       height: double.infinity,
       color: Colors.amber,
-<<<<<<< HEAD
-      child: Row(
-        // mainAxisAlignment: MainAxisAlignment.start,
-        // mainAxisAlignment: MainAxisAlignment.end,
-        // mainAxisAlignment: MainAxisAlignment.spaceAround,
-        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
-        // crossAxisAlignment: CrossAxisAlignment.start,
-        // crossAxisAlignment: CrossAxisAlignment.center,
-        // crossAxisAlignment: CrossAxisAlignment.end,
-        // crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Container(
-            color: Colors.greenAccent,
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text("this is text 1"),
-            ),
-          ),
-          Container(
-            color: Colors.blueAccent,
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text("this is text 1"),
-            ),
-          ),
-          Container(
-            color: Colors.cyanAccent,
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text("this is text 1"),
-            ),
-          ),
-        ],
-      ),
-      child: Column(
-        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        // mainAxisAlignment: MainAxisAlignment.spaceAround,
-        // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        mainAxisAlignment: MainAxisAlignment.center,
-        // mainAxisAlignment: MainAxisAlignment.end,
-
-=======
       // child: Row(
       //   // mainAxisAlignment: MainAxisAlignment.start,
       //   // mainAxisAlignment: MainAxisAlignment.end,
@@ -119,8 +72,6 @@ class MyApp extends StatelessWidget {
         // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         mainAxisAlignment: MainAxisAlignment.center,
         // mainAxisAlignment: MainAxisAlignment.end,
-
->>>>>>> 2bcfc28 ([Add] Expended Widget)
         // crossAxisAlignment: CrossAxisAlignment.start,
         // crossAxisAlignment: CrossAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.stretch,
